@@ -1,0 +1,14 @@
+name: 'Hello Action 5000'
+description: 'An action to print a customized greeting with a name of your choosing.'
+author: 'Brett Porcelli'
+branding:
+  icon: 'user'
+  color: 'blue'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+inputs:
+  name:
+    description: 'The name of the person to greet'
+    required: true
+    default: 'world'
