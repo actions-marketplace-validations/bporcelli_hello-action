@@ -7,4 +7,4 @@ then
     exit 1
 fi
 
-echo "Hello, {$INPUT_NAME}!"
+echo "Hello, ${INPUT_NAME}!"
